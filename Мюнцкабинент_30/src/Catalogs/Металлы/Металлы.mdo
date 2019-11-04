@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22af565a-9556-4296-a48c-6bf590f161ef">
+  <producedTypes>
+    <objectType typeId="49f86782-57c5-4494-af54-dff063171226" valueTypeId="ba1ab82f-2569-4e61-8d14-10f978693ed7"/>
+    <refType typeId="c20f416b-ea7e-4a2d-9a12-fea740473cc7" valueTypeId="405e4b98-2470-4ebd-b2ba-c016693dec44"/>
+    <selectionType typeId="9d0c81f8-2798-40af-b331-b1601de45d2d" valueTypeId="04ab3942-48a2-4c90-b408-45fc8a272dcb"/>
+    <listType typeId="40417b0b-1e00-4b50-9cde-8299c950f02b" valueTypeId="55d86a2d-a20b-488c-b470-48513c8b26c4"/>
+    <managerType typeId="1b33905a-ddcd-41f1-8175-a40e0ffd034c" valueTypeId="08268e6c-08e7-455f-83a9-fb17f56d6122"/>
+  </producedTypes>
+  <name>Металлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Металлы и сплавы</value>
+  </synonym>
+  <comment>Металлы и сплавы для чеканки монет</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Металлы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Металлы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="747aedb5-f80c-4359-bc39-b1cf1a973907">
+      <name>Серебро</name>
+      <description>Серебро</description>
+      <code xsi:type="core:StringValue">
+        <value>Ag</value>
+      </code>
+    </items>
+    <items id="c10768ab-ca1b-4ec0-a4d7-fedbfb7946e2">
+      <name>Золото</name>
+      <description>Золото</description>
+      <code xsi:type="core:StringValue">
+        <value>Au</value>
+      </code>
+    </items>
+    <items id="c02f5e9e-89e2-44bb-84c6-ed08d02e498e">
+      <name>Биметал</name>
+      <description>Биметал</description>
+      <code xsi:type="core:StringValue">
+        <value>Bm</value>
+      </code>
+    </items>
+    <items id="7f0f4dcc-50ff-4548-9ab2-2a2d6966e003">
+      <name>Бронза</name>
+      <description>Бронза</description>
+      <code xsi:type="core:StringValue">
+        <value>Br</value>
+      </code>
+    </items>
+    <items id="3a4ba9a9-8e44-48cc-8d19-4ca32a88a07b">
+      <name>Медь</name>
+      <description>Медь</description>
+      <code xsi:type="core:StringValue">
+        <value>Cu</value>
+      </code>
+    </items>
+    <items id="942bd87a-39fb-4ed4-b4f1-1f744a0e7e7a">
+      <name>МедьНикель</name>
+      <description>Медно-никелевый сплав</description>
+      <code xsi:type="core:StringValue">
+        <value>Cu/Ni</value>
+      </code>
+    </items>
+    <items id="01e7034c-4826-4a14-951d-3ef46dc5926d">
+      <name>МедьЦинкНикель</name>
+      <description>Медно-цинко-никелевый сплав</description>
+      <code xsi:type="core:StringValue">
+        <value>Cu/Zn/Ni</value>
+      </code>
+    </items>
+    <items id="27e73d2e-9724-4903-bff4-e79921e303d5">
+      <name>Железо</name>
+      <description>Железо</description>
+      <code xsi:type="core:StringValue">
+        <value>Fe</value>
+      </code>
+    </items>
+    <items id="bde6893c-7f4c-4450-a0e4-fa7042d8c821">
+      <name>Платина</name>
+      <description>Платина</description>
+      <code xsi:type="core:StringValue">
+        <value>Pt</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Металлы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="ac358bb3-b8a5-4a44-8e55-4415045cd44b">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b2e745f2-01a4-46e3-b2c8-050d7f871558">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42f86f83-08b1-4eec-a885-36db9af273fd">
+  <name>НастройкаВалютныхКонстант</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка валютных констант</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

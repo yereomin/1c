@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="955d131d-0202-4a76-8e9b-9b17bd382075">
+  <producedTypes>
+    <selectionType typeId="b8c42174-ed2b-4301-af98-ba15058e8fd8" valueTypeId="a9d672d9-b6ee-4e76-adc0-3378991222f7"/>
+    <listType typeId="fc280e12-9e17-448f-b700-f0606569381f" valueTypeId="629eed23-78ff-4af2-8d0c-b1392fb655b3"/>
+    <managerType typeId="0cb56a02-471b-40d3-bc03-dd6e30f8d41c" valueTypeId="ff8ef098-b417-4dbc-ab57-f1c1ea4829cf"/>
+    <recordSetType typeId="3368cfb6-a7f2-4c90-94a6-6f8f3df5dfcc" valueTypeId="b57589ac-a6d5-4c99-a9a8-d1832b9a1964"/>
+    <recordKeyType typeId="035c3a15-a42e-45c6-8b2c-aa91003ab728" valueTypeId="10805f81-aa4e-40f1-acdd-bb87d8077d2f"/>
+    <recordType typeId="b71653b5-0e9a-4b6d-895b-f4d1b515a291" valueTypeId="d2dc91af-88f9-4951-89a7-da0e53471793"/>
+  </producedTypes>
+  <name>ДополнительныеРасходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные расходы</value>
+  </synonym>
+  <comment>Дополнительные расходы: стоимость приобретения альбомов, холдеров и проч.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fe17c41d-15fa-4b4f-81c1-3a063099a1d3">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Различные издержки по приобретению, например, почтовые, транспортные расходы, а также различные сборы и пошлины</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="75e8e7f8-ed54-4989-be39-24415fe44d93">
+    <name>Коллекционер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекционер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

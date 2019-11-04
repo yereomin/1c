@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3041c99e-d401-4807-bacb-7cee462e02ef">
+  <producedTypes>
+    <objectType typeId="b8dcb83c-ae26-45b2-9990-baee48f5da84" valueTypeId="b1505feb-d8b4-41b1-9282-75e084081bb5"/>
+    <refType typeId="a5671f92-b139-4546-a8ad-c9740cc6d530" valueTypeId="c930c518-2193-44b1-9a95-12ea83c4799a"/>
+    <selectionType typeId="c20244f6-24ba-4e7b-863d-6007470a90f8" valueTypeId="f120406a-4234-4ecb-9f09-3c4fdfbbce0d"/>
+    <listType typeId="36b43901-10b8-4462-afc8-84a8849f755d" valueTypeId="587c6d3e-240e-4c82-b3f4-26ef356a1a88"/>
+    <managerType typeId="2d020446-20e2-4d94-94c2-20f90fdb7620" valueTypeId="8640ea25-7b3a-4ed3-bd9b-9fdff6cdbd1f"/>
+  </producedTypes>
+  <name>ПочтовыеСтатусы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почтовые статусы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПочтовыеСтатусы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПочтовыеСтатусы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>35</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="d58c3a9b-1b94-4138-8f42-d6a1c98da0a0">
+      <name>АдресатЗаберетОтправлениеСам</name>
+      <description>Адресат заберет отправление сам</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="143abec3-8b9c-4f56-8b5d-f8eb9257a448">
+      <name>АдресатуПочтальоном</name>
+      <description>Адресату почтальоном</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+    </items>
+    <items id="167f98c8-c135-4307-a806-6b968f94c710">
+      <name>ВручениеАдресату</name>
+      <description>Вручение адресату</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="68b53fe6-918b-40c2-97a5-08a72d01d3fe">
+      <name>Единичный</name>
+      <description>Единичный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="4213c9d9-6fee-4621-b96e-6a1614e9b688">
+      <name>Партионный</name>
+      <description>Партионный</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="75aa059e-2f88-4330-ac02-23614cfb9997">
+      <name>ПереданоПочтальону</name>
+      <description>Передано почтальону</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+    </items>
+    <items id="82a00832-89fe-4a9d-a187-dd1684e140af">
+      <name>ПокинулоМестоПриема</name>
+      <description>Покинуло место приёма</description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+    </items>
+    <items id="039759e2-7246-42e9-95d2-708c62ec1405">
+      <name>ПокинулоСортировочныйЦентр</name>
+      <description>Покинуло сортировочный центр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="7898b81f-05c4-4bd5-b59d-6e870947d074">
+      <name>ПрибылоВМестоВручения</name>
+      <description>Прибыло в место вручения</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="f4539cf9-6ba0-4933-b27c-9541157ff3e0">
+      <name>ПрибылоВСортировочныйЦентр</name>
+      <description>Прибыло в сортировочный центр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+    </items>
+    <items id="d6e87143-84f0-44a6-bb15-7c6c8bceb8f4">
+      <name>Сортировка</name>
+      <description>Сортировка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

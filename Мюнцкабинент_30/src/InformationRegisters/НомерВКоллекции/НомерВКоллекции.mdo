@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a6b24ae-3543-466a-8791-bee18fc23cb2">
+  <producedTypes>
+    <selectionType typeId="959ddefc-6320-4c44-b52e-adeac25a4f8b" valueTypeId="81b67921-0e4a-4368-88ba-d68fe3968c20"/>
+    <listType typeId="eb62989e-6379-4708-a647-715ebd04b460" valueTypeId="4b25b96d-1b27-4b81-b122-da95edafc473"/>
+    <managerType typeId="6d3a0062-08a3-4a48-a76d-9863574e35ee" valueTypeId="bf056602-3e9b-4fa5-a85f-b23fdee4db2b"/>
+    <recordSetType typeId="a3fc7eeb-b257-4464-8335-96ea4be02a8e" valueTypeId="aeb49c78-08dd-433d-b339-a4643468ca68"/>
+    <recordKeyType typeId="ae5a3b49-f997-4b3a-8c4b-5193e0157e70" valueTypeId="9eb8c322-4a06-469e-84aa-326c55445820"/>
+    <recordType typeId="74548b6b-79aa-4360-8650-f082a73924c1" valueTypeId="fee8fd06-0f35-4d7d-874e-55c66e3e5132"/>
+    <recordManagerType typeId="ed5b9313-3aec-4b2c-adcc-047bedd79456" valueTypeId="2f76c53e-a4c7-4871-92c8-add284b053c2"/>
+  </producedTypes>
+  <name>НомерВКоллекции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номер в коллекции</value>
+  </synonym>
+  <comment>Номера ячеек, в котоых хранится монеты</comment>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НомерВКоллекции.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="14859979-fa5c-48bc-9100-3642b68ea45b">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <comment>Номер ячейки в альбоме, в котором хранится монета</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер ячейки в альбоме, в котором хранится монета</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d420d620-df38-436d-94c5-aa7de1acf725">
+    <name>Монета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Монеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="2fd3fadc-80cc-4e4a-bd43-5a4205b0bb38">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

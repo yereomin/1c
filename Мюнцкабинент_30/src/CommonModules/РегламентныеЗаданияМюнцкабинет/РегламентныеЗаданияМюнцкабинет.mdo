@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c5640e-2efe-4c19-80b8-a84ccfd01a4e">
+  <name>РегламентныеЗаданияМюнцкабинет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные задания (Мюнцкабинет)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

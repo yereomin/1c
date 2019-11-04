@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="864f4a7d-2110-4c79-a499-4ba89f755838">
+  <name>ПрочиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочие документы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеДопРасходов</content>
+  <content>Document.Перемещение</content>
+  <content>Document.Инвентаризация</content>
+  <content>Document.Планирование</content>
+  <parentSubsystem>Subsystem.Нумизматика</parentSubsystem>
+</mdclass:Subsystem>

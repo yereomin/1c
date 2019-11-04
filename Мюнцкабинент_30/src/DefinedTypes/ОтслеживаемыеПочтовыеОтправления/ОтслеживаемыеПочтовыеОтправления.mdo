@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1164f73-fbb3-4b68-8c5d-dca0a31d996d">
+  <producedTypes>
+    <containerType typeId="cd5339e0-8378-4552-b60f-3560d9be6528" valueTypeId="80a56549-b927-4b93-847c-14e771ed6aa8"/>
+  </producedTypes>
+  <name>ОтслеживаемыеПочтовыеОтправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отслеживаемые почтовые отправления</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеВКоллекцию</types>
+    <types>DocumentRef.РеализацияОбъектовКоллекций</types>
+  </type>
+</mdclass:DefinedType>

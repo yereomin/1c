@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d47743dd-84b7-43b8-bc0d-e05c952dbb6d">
+  <name>ОтслеживаниеПочтовогоОтправления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отслеживание почтового отправления</value>
+  </synonym>
+  <comment>Отслеживание почтового отправления</comment>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DefinedType.ОтслеживаемыеПочтовыеОтправления</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Отслеживание почтового отправления</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПочтаРоссии_16х16</picture>
+  </picture>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

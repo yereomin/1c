@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23b44efa-b89f-409f-86cf-8de9ae9e10ed">
+  <name>ДокументыПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы продажи</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РеализацияОбъектовКоллекций</content>
+  <parentSubsystem>Subsystem.Нумизматика</parentSubsystem>
+</mdclass:Subsystem>

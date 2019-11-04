@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="007d0617-ede2-4b84-bf99-7fe1636514fb">
+  <name>ДокументыПоступления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы поступления</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеВКоллекцию</content>
+  <parentSubsystem>Subsystem.Нумизматика</parentSubsystem>
+</mdclass:Subsystem>

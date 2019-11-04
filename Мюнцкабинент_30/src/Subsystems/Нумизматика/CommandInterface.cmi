@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Нумизматика.Subsystem.ПрочиеОбъекты</subsystems>
+    <subsystems>Subsystem.Нумизматика.Subsystem.ДокументыПоступления</subsystems>
+    <subsystems>Subsystem.Нумизматика.Subsystem.ДокументыПродажи</subsystems>
+    <subsystems>Subsystem.Нумизматика.Subsystem.ПрочиеДокументы</subsystems>
+    <subsystems>Subsystem.Нумизматика.Subsystem.НумизматикаСправочники</subsystems>
+    <subsystems>Subsystem.Нумизматика.Subsystem.ОтслеживаниеПочтовыхОтправлений</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

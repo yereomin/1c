@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01718bcb-7e09-4e4b-b840-e64dc9602929">
+  <producedTypes>
+    <managerType typeId="904636d6-01eb-4216-bf4b-79ce7d66938f" valueTypeId="32fdbeae-e5b7-4069-b76c-4058a7345417"/>
+    <valueManagerType typeId="930269bf-d0d6-4cca-8a3f-224f7dd201c9" valueTypeId="6fd59f98-5da1-40e5-bfaa-33ad4c0cbe73"/>
+    <valueKeyType typeId="fc9821c2-99c7-55ed-be91-423e323baa85" valueTypeId="a403905c-85e3-504c-b67d-a056c1b50614"/>
+  </producedTypes>
+  <name>ИспользоватьСервисПочтыРФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать сервис почты РФ</value>
+  </synonym>
+  <comment>Использовать для отслеживания РПО сервис почты России</comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Использовать для отслеживания РПО сервис почты России</value>
+  </explanation>
+  <format>
+    <key>ru</key>
+    <value>БЛ=Нет; БИ=Да</value>
+  </format>
+  <editFormat>
+    <key>ru</key>
+    <value>БЛ=Нет; БИ=Да</value>
+  </editFormat>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать для отслеживания РПО сервис почты России</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

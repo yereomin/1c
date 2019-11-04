@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3716b510-9188-40f6-b565-d1343a8a69a6">
+  <producedTypes>
+    <selectionType typeId="72b15484-a210-473c-844b-1ea4167eac06" valueTypeId="4a73836a-fb5b-4926-94b1-fc62e00fad1d"/>
+    <listType typeId="97f8b686-56b5-4285-857b-cb1820d3e792" valueTypeId="54ac9902-acd9-48d3-9be3-fdbe1c6d0f2f"/>
+    <managerType typeId="a291e2fc-84b5-49c3-b2f9-e9a48913bef7" valueTypeId="9332a865-1f50-45d7-82f1-f81cf45b5989"/>
+    <recordSetType typeId="a943fa02-5a2d-4cc8-be91-5dbcf15698c0" valueTypeId="0d5696c4-43fa-45fb-8ff5-5779842550bf"/>
+    <recordKeyType typeId="6c6f341c-2ef5-414e-8412-770eb5b33ea2" valueTypeId="80a34d8e-184e-4420-9a56-8ea0370248a2"/>
+    <recordType typeId="b2c50bf8-ff48-47aa-9608-b6044b063efa" valueTypeId="8bb21ebe-111d-4aac-9b1b-609ba13d5ed5"/>
+  </producedTypes>
+  <name>ДвиженияМонет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения монет</value>
+  </synonym>
+  <comment>Приходные и расходные операции с монетами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4e40bded-0dcb-42dd-a9ab-930bf78eccef">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ca5a185a-20a4-4d7d-b7be-a7b9b0c4b2b4">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость (единицы)</value>
+    </synonym>
+    <comment>Фактически себестоимость единицы</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8190b55a-5357-495c-8fa6-674824a1ff64">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Монеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="30b7c314-4663-47c1-8e0d-7cbbf485b823">
+    <name>Коллекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коллекции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

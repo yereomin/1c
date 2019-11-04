@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fed006d9-a47c-4ae8-89ae-35450276324f">
+  <name>НумизматикаСправочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Эпохи</content>
+  <content>Catalog.Номиналы</content>
+  <content>Catalog.Гурты</content>
+  <content>Catalog.Металлы</content>
+  <content>Catalog.ВидыМонет</content>
+  <content>Catalog.Минцмейстеры</content>
+  <content>Catalog.МонетныеДворы</content>
+  <content>Catalog.Коллекции</content>
+  <content>Catalog.СостояниеСохранности</content>
+  <content>Catalog.Монеты</content>
+  <content>Catalog.ТипыЦен</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <parentSubsystem>Subsystem.Нумизматика</parentSubsystem>
+</mdclass:Subsystem>

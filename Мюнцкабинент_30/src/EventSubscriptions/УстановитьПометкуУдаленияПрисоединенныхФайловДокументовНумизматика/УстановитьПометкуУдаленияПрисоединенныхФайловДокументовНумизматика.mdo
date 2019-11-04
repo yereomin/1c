@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54035278-7dff-46f0-b6b6-16697ff70f7a">
+  <name>УстановитьПометкуУдаленияПрисоединенныхФайловДокументовНумизматика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить пометку удаления присоединенных файлов документов нумизматика</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.РеализацияОбъектовКоллекций</types>
+    <types>DocumentObject.ПоступлениеДопРасходов</types>
+    <types>DocumentObject.ПоступлениеВКоллекцию</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>
+</mdclass:EventSubscription>

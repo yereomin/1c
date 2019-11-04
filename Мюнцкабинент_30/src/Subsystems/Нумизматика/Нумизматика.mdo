@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="117ea1ee-d49a-477c-9419-9bab6369d382">
+  <name>Нумизматика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумизматика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Контейнер для подсистем</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНумизматика</picture>
+  </picture>
+  <content>CommonCommand.ДополнительныеОтчетыНумизматика</content>
+  <subsystems>ДокументыПоступления</subsystems>
+  <subsystems>ДокументыПродажи</subsystems>
+  <subsystems>ПрочиеДокументы</subsystems>
+  <subsystems>НумизматикаСправочники</subsystems>
+  <subsystems>ОтслеживаниеПочтовыхОтправлений</subsystems>
+  <subsystems>ПрочиеОбъекты</subsystems>
+</mdclass:Subsystem>

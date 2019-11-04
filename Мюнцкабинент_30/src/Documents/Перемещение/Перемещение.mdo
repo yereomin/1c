@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a01f96be-d7a1-4e64-84e7-0d5c672200eb">
+  <producedTypes>
+    <objectType typeId="dcc1ae53-1efa-4895-85bb-35f4b56a0822" valueTypeId="ae03fdf1-d821-45f5-a0aa-ed023cba9f2b"/>
+    <refType typeId="8c30d6aa-89cc-4810-8997-88271f182308" valueTypeId="6d7b21e2-960d-4fd6-bb89-876babad79bc"/>
+    <selectionType typeId="8ce5f1f4-f424-423f-8f7d-8c6310078405" valueTypeId="122d8c34-44eb-40d3-932b-d8e773080f43"/>
+    <listType typeId="afab9d31-daea-45b6-b4b0-fceb2afcc4f6" valueTypeId="f360e36a-80aa-4c44-bd2a-3ad124117be7"/>
+    <managerType typeId="682c9e7b-bd8f-4424-8e7f-9e9f5fe2a153" valueTypeId="cf81b0a3-7ab5-4499-a10f-3408fe85038d"/>
+  </producedTypes>
+  <name>Перемещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение монет</value>
+  </synonym>
+  <comment>Перемещение монет между альбомами</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Перемещение.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Перемещение.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Перемещение.Form.ФормаСписка</defaultListForm>
+  <registerRecords>AccumulationRegister.ДвиженияМонет</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="184ef1f7-034c-49ff-865e-9378dd46fdce">
+    <name>КоллекцияТекущая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция текущая</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коллекции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8ae74d5-f787-48b3-81c9-37b8c0193265">
+    <name>КоллекцияПриемник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция приемник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коллекции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="526760a9-2c90-489a-a78a-265128d13d04">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9439248a-e001-4d93-a2cb-d1095f672cd7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="4ee67a3b-4bb9-4f7a-9070-bad21d9054e2">
+    <producedTypes>
+      <objectType typeId="64dc1ba6-09ea-4b70-8e8a-2eb5f51b4867" valueTypeId="4a461512-97e5-4465-8d7a-58da00804fc6"/>
+      <rowType typeId="05f122a9-09ad-4e3d-b3c8-b1041153e827" valueTypeId="2705b26f-4089-4e8a-bac7-7126b6e3a6d8"/>
+    </producedTypes>
+    <name>Монеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Монеты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a64d3803-ff6c-476f-a628-64dea197a1da">
+      <name>Монета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Монета</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Монеты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e5634873-737d-4eb9-8b40-517ff1ee4775">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9614f0d9-dbe9-466a-a2fc-775b3799d1bd">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

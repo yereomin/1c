@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="349f946c-aa69-41ed-ba61-516c9db93cd8">
+  <producedTypes>
+    <objectType typeId="f9781756-91b3-4ddc-82f1-7994a41d2953" valueTypeId="4d7cc119-b09f-4eb4-8751-b08bb105a430"/>
+    <refType typeId="593128cd-d701-4803-b701-8abba8a59332" valueTypeId="e09ecc05-3801-4226-8b1b-354cfdbf039b"/>
+    <selectionType typeId="27796dab-9710-413a-8dde-58c2121f8eec" valueTypeId="fe45ae64-b7e1-4af6-9420-dbc9a3bbf596"/>
+    <listType typeId="ce32c7d0-e95d-4216-949b-6d94808e61f3" valueTypeId="4dc02119-96df-49d6-9114-1c6170f15065"/>
+    <managerType typeId="35085c9d-590d-4b53-943a-b86f2c0360d8" valueTypeId="e0314483-828d-4740-b218-902568452f60"/>
+  </producedTypes>
+  <name>Планирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование коллекции</value>
+  </synonym>
+  <comment>План приобретения объектов в коллекцию</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Планирование.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Планирование.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.Планирование.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Планирование</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="571fbac3-4c3f-4e20-b195-917fc4dce733">
+    <name>Коллекция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Коллекции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3498efb4-6ddf-4da3-a7a8-792618597dda">
+    <name>Коллекционер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коллекционер</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1fc30e56-0963-4bb4-9d72-8d8cc0b680ed">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Различные издержки по приобретению, например, почтовые, транспортные расходы, а также различные сборы и пошлины</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="bb497edc-d194-454b-8670-fbc21fb1c7a9">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81c44941-5c72-460f-b129-01290eb76d1d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e3388387-fcef-4ad9-8c70-0b6d85637e9b">
+    <producedTypes>
+      <objectType typeId="c1347bdb-6007-4ae0-bc83-251f2123e64b" valueTypeId="2259fb22-831c-4c45-bb01-aa418f1cddc9"/>
+      <rowType typeId="b3685282-fd4e-4243-b17e-bf120d506062" valueTypeId="8f4b922a-56c3-4c05-870d-c9a40dd2318e"/>
+    </producedTypes>
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="62999961-489f-45d8-899e-f5fef6418acc">
+      <name>ВидМонеты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид монеты</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыМонет</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe4478a5-869f-4f44-b9d8-f49e6b3b55d7">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена единицы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="a5f0478e-a118-48d9-94ee-583d42b7e309">
+    <name>ПФ_Планирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф планирование</value>
+    </synonym>
+  </templates>
+  <commands uuid="c03ab05c-ad05-42b7-ab9b-4c09b1c6eaac">
+    <name>ПечатьПланирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать планирования</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

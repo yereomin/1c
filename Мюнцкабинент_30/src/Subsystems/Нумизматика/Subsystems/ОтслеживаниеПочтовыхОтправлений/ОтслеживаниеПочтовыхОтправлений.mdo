@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66d9e736-36ba-401b-97ac-8b4b8fcea6c0">
+  <name>ОтслеживаниеПочтовыхОтправлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отслеживание почтовых отправлений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ПочтовыеСтатусы</content>
+  <content>Catalog.ПочтовыеОперации</content>
+  <content>InformationRegister.ПочтовыеИдентификаторы</content>
+  <content>ChartOfCharacteristicTypes.ВидыПочтовыхИдентификаторов</content>
+  <content>InformationRegister.ПочтовыеТреки</content>
+  <parentSubsystem>Subsystem.Нумизматика</parentSubsystem>
+</mdclass:Subsystem>

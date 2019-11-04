@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c99da1ea-aa50-490b-9924-f0a6b615528a">
+  <producedTypes>
+    <managerType typeId="8d744ed6-8c45-4d17-b841-555c6e41633f" valueTypeId="0d4d9545-b7df-4d5d-a82e-20ad548494a6"/>
+    <valueManagerType typeId="8019afce-7f02-4ec8-a459-0ccea83997ef" valueTypeId="a4d802fb-cbee-4e0d-b947-297851111394"/>
+    <valueKeyType typeId="a5a8b13c-9417-515e-a316-9071a88e4037" valueTypeId="3bf763e3-649f-5690-9a98-75efd80f8293"/>
+  </producedTypes>
+  <name>ДополнительнаяУчетнаяВалюта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительная учетная валюта</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаВалютныхКонстант</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

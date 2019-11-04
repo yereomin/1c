@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>0:5156e555-49bb-4665-84d7-efb20ae67249</commands>
+      <commands>0:4c5a6143-55b3-4452-81cb-9e2743856385</commands>
+      <commands>0:15c171e8-cdd0-4573-b86f-8edd49f9175d</commands>
+      <commands>0:b2140462-f73f-4258-8fc4-215a5ccef274</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bdf28ebd-46e2-4c68-bb3b-f4817d37aca6">
+  <producedTypes>
+    <selectionType typeId="34204aac-3c70-495c-93a1-abbc4fab13d9" valueTypeId="82b6fd32-28b4-4bc8-9c42-47d92459c9fe"/>
+    <listType typeId="46919942-a13d-43d8-b9bf-5ad289883def" valueTypeId="c1ccde2d-4d6e-4481-9b6d-f8ece1205703"/>
+    <managerType typeId="d86c8974-caa2-484c-9926-0acd3af8ab0b" valueTypeId="97e2caf3-cb8d-48e2-a790-7e725a91453b"/>
+    <recordSetType typeId="917356ae-ea4e-4311-acd1-8d346cb7fcfb" valueTypeId="79a9a776-fb2d-4f68-bf48-e59c5a5c851a"/>
+    <recordKeyType typeId="22704203-499a-4e02-91da-11a4b6974af2" valueTypeId="0b3be6bd-bea1-4222-bfd4-0f6b316c586b"/>
+    <recordType typeId="b8a4f3b7-bf2c-40e1-a038-e44187ad4079" valueTypeId="ff5c9d5b-87dc-4772-9e34-7b4902580fe1"/>
+    <recordManagerType typeId="8d83930b-a47d-4b25-80bc-e53e8ab9d61f" valueTypeId="8a905c25-09a9-4778-876b-ac99d4e8dc1f"/>
+  </producedTypes>
+  <name>СтоимостьОбъектовКоллекцинирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость объектов коллекцинирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтоимостьОбъектовКоллекцинирования.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СтоимостьОбъектовКоллекцинирования.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="84f4c8ae-5b5e-4fe3-beb4-d9a9199df8b0">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b1999449-3f3f-46de-9712-09ddce4ba10b">
+    <name>РегистраторЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистратор цен</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Инвентаризация</types>
+      <types>DocumentRef.ПоступлениеВКоллекцию</types>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="91e91bb9-04eb-457b-8860-e1e85b5274d7">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМонет</types>
+      <types>CatalogRef.Монеты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="78206cae-dc10-4080-864a-b6794bbca3e4">
+    <name>ТипЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цены</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f3c96a42-86d6-4a57-a932-efc72b65aea6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="244142fe-e34f-4e7b-a0e6-38f389d1a456">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
